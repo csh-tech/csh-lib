@@ -29,9 +29,9 @@ int QuickSort::partition(int low, int high) {
 
 int main() {
   std::vector<int> test_list = {2, 2, 1, 1, 4, 3, 99, 1111, 0, 5};
-  QuickSort sort(test_list);
-  sort.quickSort(0, test_list.size() - 1);
-  sort.printVector();
+  QuickSort sorter(test_list);
+  sorter.quickSort(0, test_list.size() - 1);
+  sorter.printVector();
 
   return 0;
 }
