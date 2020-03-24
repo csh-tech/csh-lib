@@ -23,8 +23,8 @@ int QuickSort::partition(int low, int high) {
         std::swap(nums_[i], nums_[j]);
     }
   }
-  std::swap(nums_[i+1], nums_[high]);
-  return (i+1);
+  std::swapms_[i+1], nums_[high]);
+  return (i + 1);
 }
 
 int main() {
@@ -35,3 +35,4 @@ int main() {
 
   return 0;
 }
+
